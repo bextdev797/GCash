@@ -39,5 +39,3 @@ $0
   <select id="dropdown4" onChange="hideDropdowns(4)">
   </select>
 </details>
-
-<script src="script.js"></script>
