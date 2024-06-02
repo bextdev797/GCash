@@ -1,2 +1,3 @@
-# GCash
-Implement GCash in App Inventor for Filipinos
+## GCash
+
+An App Inventor 2 extension created using Rush.
