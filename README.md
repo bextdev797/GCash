@@ -40,17 +40,4 @@ $0
   </select>
 </details>
 
-<script>
-  function hideDropdowns(level) {
-    for (var i = level + 1; i <= 4; i++) {
-      var dropdownContainer = document.getElementById("dropdownContainer" + i);
-      dropdownContainer.style.display = "none";
-    }
-
-    // Show the next dropdown
-    var nextDropdownContainer = document.getElementById("dropdownContainer" + (level + 1));
-    if (nextDropdownContainer) {
-      nextDropdownContainer.style.display = "block";
-    }
-  }
-</script>
+<script src="script.js"></script>
